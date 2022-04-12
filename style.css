@@ -1,0 +1,80 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.navi{
+    flex: 1 100%;
+    background-color: rgba(182, 182, 227, 0.854);
+    order: 1;
+    padding: 1%;
+
+
+
+}
+
+span.navi{
+
+    padding: 5px;
+    font-size: 1vw;
+    padding: 1%;
+    background-color: black;
+    color: white;
+}
+span.navi:hover{background-color: rgb(199, 236, 66);}
+
+.head{
+
+    flex: 1 100%;
+    background-color: rgb(224, 16, 61);
+    order: 2;
+    text-align: center;
+    font-size: 2vw;
+}
+.aside1{
+    flex: 0 10%;
+    order: 3;
+    margin-top: 5%;
+    
+}
+
+.art{
+    flex: 1 70%;
+    order: 4;
+    
+}
+
+.aside2{
+
+    flex: 0 20%;
+    order: 5;
+text-align: center;
+margin-top: 3%;  
+
+}
+
+.pstyle{
+    margin: 30px;
+    
+
+}
+.astyle{
+    border: 2px solid rgb(82, 189, 232);
+    text-decoration: none;
+    background-color: rgba(128, 204, 230, 0.627);
+    border-radius: 5px;
+    padding: 10px;
+}
+    
+    
+
+
+.footer{
+    flex: 1 100%;
+    order: 6;
+   
+}
+.menu{display: block;
+padding: 4%;}
