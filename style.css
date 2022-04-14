@@ -37,12 +37,14 @@ span.navi:hover{background-color: rgb(199, 236, 66);}
     flex: 0 10%;
     order: 3;
     margin-top: 5%;
+    font-size: 1vw;
     
 }
 
 .art{
     flex: 1 70%;
     order: 4;
+    font-size: 2vw;
     
 }
 
@@ -51,7 +53,8 @@ span.navi:hover{background-color: rgb(199, 236, 66);}
     flex: 0 20%;
     order: 5;
 text-align: center;
-margin-top: 3%;  
+margin-top: 3%; 
+font-size: 1.1vw; 
 
 }
 
